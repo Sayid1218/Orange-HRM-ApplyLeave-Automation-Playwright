@@ -8,10 +8,13 @@ This repository contains an end-to-end automation suite built using Playwright a
 **The current suite focuses on testing the following key workflows:**
 
 Scenario 1: Login 
+
 Scenario 2: Set up leave type and leave balence 
+
 Scenario 3: Apply Leave 
 
 ## 🛠️ Prerequisites
+
 **Before running the tests, ensure you have the following installed on your machine:**
 
 Node.js: Version 16.x or higher (recommended).
@@ -21,9 +24,11 @@ npm: The Node package manager, installed with Node.js.
 Git: For cloning the repository.
 
 ## ⚙️ Setup and Installation
+
 **Follow these steps to set up the project locally:**
 
 1. Clone the Repository
+   
 **Open your terminal or command prompt and run:**
 
 Bash
@@ -33,6 +38,7 @@ Bash
 cd Orange-HRM-ApplyLeave-Automation-Playwright
 
 2. Install Dependencies
+   
 Install the project dependencies, including Playwright and necessary libraries:
 
 Bash
@@ -50,6 +56,7 @@ Bash
 ## 💻 How to Run Tests
 
 1. Execute All Tests
+   
 **To run the entire test suite in headless mode (default):**
 
 Bash
@@ -57,6 +64,7 @@ Bash
 ```npx playwright test```
 
 2. Run in Headed Mode (with Browser UI)
+   
 **To see the tests execute in the browser for debugging or demonstration:**
 
 Bash
@@ -64,6 +72,7 @@ Bash
 ```npx playwright test --headed```
 
 3. Run Specific Files or Tests
+   
 **To run a single spec file:**
 
 Bash
@@ -77,6 +86,7 @@ Bash
 ```npx playwright test --grep "@smoke"```
 
 4. Run with UI Mode (Interactive Debugging)
+   
 **To run the tests in Playwright's interactive UI, which allows for step-by-step debugging and test inspection:**
 
 Bash
@@ -84,6 +94,7 @@ Bash
 ```npx playwright test --ui```
 
 ## 📈 Test Reporting
+
 This project uses the built-in Playwright HTML Reporter to generate detailed, interactive test reports.
 
 1. Generate the Report
