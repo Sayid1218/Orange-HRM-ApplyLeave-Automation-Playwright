@@ -29,6 +29,7 @@ Git: For cloning the repository.
 Bash
 
 ```git clone https://github.com/Sayid1218/Orange-HRM-ApplyLeave-Automation-Playwright.git ```
+
 cd Orange-HRM-ApplyLeave-Automation-Playwright
 
 2. Install Dependencies
