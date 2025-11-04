@@ -33,7 +33,7 @@ _Git:_ For cloning the repository.
 
 >Bash
 
-```git clone https://github.com/Sayid1218/Orange-HRM-ApplyLeave-Automation-Playwright.git ```
+>```git clone https://github.com/Sayid1218/Orange-HRM-ApplyLeave-Automation-Playwright.git ```
 
 cd Orange-HRM-ApplyLeave-Automation-Playwright
 
