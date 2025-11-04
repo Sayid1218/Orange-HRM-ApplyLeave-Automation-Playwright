@@ -37,6 +37,7 @@ Install the project dependencies, including Playwright and necessary libraries:
 Bash
 
 ```npm install```
+
 3. Install Playwright Browsers
 
 **Playwright needs browser binaries to run tests. Install them using the Playwright CLI:**
