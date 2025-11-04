@@ -61,7 +61,7 @@ Install the project dependencies, including Playwright and necessary libraries:
 
 >Bash
 
-```npx playwright test```
+``` npx playwright test applyLeave.spec.js```
 
 2. Run in Headed Mode (with Browser UI)
    
@@ -69,7 +69,7 @@ Install the project dependencies, including Playwright and necessary libraries:
 
 >Bash
 
-```npx playwright test --headed```
+``` npx playwright test applyLeave.spec.js --headed```
 
 3. Run Specific Files or Tests
    
@@ -77,7 +77,7 @@ Install the project dependencies, including Playwright and necessary libraries:
 
 >Bash
 
-```npx playwright test tests/apply-leave.spec.ts```
+``` npx playwright test applyLeave.spec.js```
 
 **To run tests matching a specific title (using grep):**
 
@@ -110,3 +110,8 @@ The HTML report is generated automatically upon test completion and saved in the
 ```npx playwright show-report```
 
 **Note: The report provides a summary of all runs, test duration, steps, screenshots on failure, and recorded videos (if configured).**
+
+
+## Report 
+<img width="1335" height="402" alt="image" src="https://github.com/user-attachments/assets/1839b4d6-8d19-44bc-ba63-f37665874de1" />
+
