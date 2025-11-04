@@ -28,50 +28,50 @@ Git: For cloning the repository.
 
 Bash
 
-git clone https://github.com/Sayid1218/Orange-HRM-ApplyLeave-Automation-Playwright.git
+```git clone https://github.com/Sayid1218/Orange-HRM-ApplyLeave-Automation-Playwright.git ```
 cd Orange-HRM-ApplyLeave-Automation-Playwright
 2. Install Dependencies
 Install the project dependencies, including Playwright and necessary libraries:
 
 Bash
 
-npm install
+```npm install```
 3. Install Playwright Browsers
 **Playwright needs browser binaries to run tests. Install them using the Playwright CLI:**
 
 Bash
 
-npx playwright install
+```npx playwright install```
 ## 💻 How to Run Tests
 1. Execute All Tests
 **To run the entire test suite in headless mode (default):**
 
 Bash
 
-npx playwright test
+```npx playwright test```
 2. Run in Headed Mode (with Browser UI)
 **To see the tests execute in the browser for debugging or demonstration:**
 
 Bash
 
-npx playwright test --headed
+```npx playwright test --headed```
 3. Run Specific Files or Tests
 **To run a single spec file:**
 
 Bash
 
-npx playwright test tests/apply-leave.spec.ts
+```npx playwright test tests/apply-leave.spec.ts```
 **To run tests matching a specific title (using grep):**
 
 Bash
 
-npx playwright test --grep "@smoke"
+```npx playwright test --grep "@smoke"```
 4. Run with UI Mode (Interactive Debugging)
 **To run the tests in Playwright's interactive UI, which allows for step-by-step debugging and test inspection:**
 
 Bash
 
-npx playwright test --ui
+```npx playwright test --ui```
 ## 📈 Test Reporting
 This project uses the built-in Playwright HTML Reporter to generate detailed, interactive test reports.
 
@@ -83,5 +83,5 @@ The HTML report is generated automatically upon test completion and saved in the
 
 Bash
 
-npx playwright show-report
+```npx playwright show-report```
 **Note: The report provides a summary of all runs, test duration, steps, screenshots on failure, and recorded videos (if configured).**
