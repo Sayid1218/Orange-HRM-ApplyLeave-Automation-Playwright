@@ -1,6 +1,4 @@
-# Orange-HRM-ApplyLeave-Automation-Playwright
-
-## 🚀 [Project Name] Automation Suite
+## 🚀 Orange HRM ApplyLeaves Automation Suite
 ### ✨ Project Overview
 This repository contains an end-to-end automation suite built using Playwright and TypeScript/JavaScript to test the \[Target Application or Feature] functionality.
 
