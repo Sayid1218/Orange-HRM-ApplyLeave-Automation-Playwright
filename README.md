@@ -87,9 +87,11 @@ Bash
 This project uses the built-in Playwright HTML Reporter to generate detailed, interactive test reports.
 
 1. Generate the Report
+   
 The HTML report is generated automatically upon test completion and saved in the playwright-report directory.
 
-2. View the Report
+3. View the Report
+   
 **To open and view the report in your default web browser, run the following command:**
 
 Bash
