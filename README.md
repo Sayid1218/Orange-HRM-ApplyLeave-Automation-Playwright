@@ -17,11 +17,11 @@ Scenario 3: Apply Leave
 
 **Before running the tests, ensure you have the following installed on your machine:**
 
-Node.js: Version 16.x or higher (recommended).
+_Node.js:_ Version 16.x or higher (recommended).
 
-npm: The Node package manager, installed with Node.js.
+_npm:_ The Node package manager, installed with Node.js.
 
-Git: For cloning the repository.
+_Git:_ For cloning the repository.
 
 ## ⚙️ Setup and Installation
 
