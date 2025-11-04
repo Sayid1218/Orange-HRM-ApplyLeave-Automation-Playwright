@@ -7,21 +7,21 @@ This repository contains an end-to-end automation suite built using Playwright a
 ## 🎯 Scope of Automation
 **The current suite focuses on testing the following key workflows:**
 
-Scenario 1: Login 
+-Scenario 1: Login 
 
-Scenario 2: Set up leave type and leave balence 
+-Scenario 2: Set up leave type and leave balence 
 
-Scenario 3: Apply Leave 
+-Scenario 3: Apply Leave 
 
 ## 🛠️ Prerequisites
 
 **Before running the tests, ensure you have the following installed on your machine:**
 
-_Node.js:_ Version 16.x or higher (recommended).
+__Node.js:__ Version 16.x or higher (recommended).
 
-_npm:_ The Node package manager, installed with Node.js.
+__npm:__ The Node package manager, installed with Node.js.
 
-_Git:_ For cloning the repository.
+__Git:__ For cloning the repository.
 
 ## ⚙️ Setup and Installation
 
@@ -33,7 +33,7 @@ _Git:_ For cloning the repository.
 
 >Bash
 
->```git clone https://github.com/Sayid1218/Orange-HRM-ApplyLeave-Automation-Playwright.git ```
+```git clone https://github.com/Sayid1218/Orange-HRM-ApplyLeave-Automation-Playwright.git ```
 
 cd Orange-HRM-ApplyLeave-Automation-Playwright
 
