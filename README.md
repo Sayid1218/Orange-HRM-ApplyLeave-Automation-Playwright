@@ -31,7 +31,7 @@ _Git:_ For cloning the repository.
    
 **Open your terminal or command prompt and run:**
 
-Bash
+>Bash
 
 ```git clone https://github.com/Sayid1218/Orange-HRM-ApplyLeave-Automation-Playwright.git ```
 
@@ -41,7 +41,7 @@ cd Orange-HRM-ApplyLeave-Automation-Playwright
    
 Install the project dependencies, including Playwright and necessary libraries:
 
-Bash
+>Bash
 
 ```npm install```
 
@@ -49,7 +49,7 @@ Bash
 
 **Playwright needs browser binaries to run tests. Install them using the Playwright CLI:**
 
-Bash
+>Bash
 
 ```npx playwright install```
 
@@ -59,7 +59,7 @@ Bash
    
 **To run the entire test suite in headless mode (default):**
 
-Bash
+>Bash
 
 ```npx playwright test```
 
@@ -67,7 +67,7 @@ Bash
    
 **To see the tests execute in the browser for debugging or demonstration:**
 
-Bash
+>Bash
 
 ```npx playwright test --headed```
 
@@ -75,13 +75,13 @@ Bash
    
 **To run a single spec file:**
 
-Bash
+>Bash
 
 ```npx playwright test tests/apply-leave.spec.ts```
 
 **To run tests matching a specific title (using grep):**
 
-Bash
+>Bash
 
 ```npx playwright test --grep "@smoke"```
 
@@ -89,7 +89,7 @@ Bash
    
 **To run the tests in Playwright's interactive UI, which allows for step-by-step debugging and test inspection:**
 
-Bash
+>Bash
 
 ```npx playwright test --ui```
 
@@ -105,7 +105,7 @@ The HTML report is generated automatically upon test completion and saved in the
    
 **To open and view the report in your default web browser, run the following command:**
 
-Bash
+>Bash
 
 ```npx playwright show-report```
 
